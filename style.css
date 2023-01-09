@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  min-height: 45vh;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 2rem;
+  z-index: 1;
+  backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  border-right:1px solid #ccc;
+}
+.user img{
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+
+}
+.rem{
+  padding: 2rem;
+  width: 70%;
+  
+}
+
+.para{
+  margin-top: 2rem;
+
+}
+.info{
+
+}
+.social{
+  margin: 2rem;
+  
+}
+.social img:nth-child(1){
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.social img:nth-child(1):hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.social img:nth-child(2){
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.social img:nth-child(2):hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.social img:nth-child(3){
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.social img:nth-child(3):hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.social img:nth-child(4){
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.social img:nth-child(4):hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.social img:nth-child(5){
+  filter: grayscale(100%);
+  padding: 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.social img:nth-child(5):hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3));
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+
+
+@media screen and (max-width:1060px){
+    .social img{
+      margin: 0.1rem;
+      padding: 0.5rem;
+    }
+}
